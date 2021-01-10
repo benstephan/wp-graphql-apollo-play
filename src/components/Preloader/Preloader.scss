@@ -1,0 +1,17 @@
+.preloader {
+  display:flex;
+  align-items: center;
+  width:100%;
+  height:100%;
+  position:fixed;
+  top:0;
+  bottom:0;
+  background:#FFF;
+  justify-content: center;
+  svg {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: inline-block;
+  }
+}

@@ -1,0 +1,18 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  &__logo {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  &__menu {
+    a {
+      padding: 5px 0 5px 20px;
+      display: inline-block;
+      text-transform: capitalize;
+      text-decoration: none;
+    }
+  }
+}
